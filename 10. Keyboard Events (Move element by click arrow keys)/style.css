@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+}
+img{
+    height: 200px;
+    position: absolute;
+    transition: all linear 0.2s;
+}

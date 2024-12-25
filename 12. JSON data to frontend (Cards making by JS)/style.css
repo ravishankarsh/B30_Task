@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;          ;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+#box{
+    height: 450px;
+    width: 320px;
+    background-color: white;
+    border-radius: 5%;
+    position: relative;
+}
+
+#cover{
+    height: 25%;
+    background-color: black;
+    border-radius: 5%;  
+}
+#cover img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5% 5% 0% 0%;
+}
+
+#profile{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    left: 33%;
+    top: 20%;
+}
+#profile img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#box h1{
+    position: relative;
+    text-align: center;
+    font-size: large;
+    top: 16%;
+}
+
+#box h2{
+    position: relative;
+    text-align: center;
+    top: 16%;
+    font-size:small;
+    opacity: 65%;
+}
+
+#box h3{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    font-size:x-small;
+    opacity: 65%;
+}
+.line{
+    position: relative;
+    height: 2px;
+    width: 30%;
+    background-color: grey;
+    top: 28%;
+    left: 35%;
+}
+#num{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    top: 35%;
+    right: 1%;
+}
+#follow{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    top: 36%;
+}

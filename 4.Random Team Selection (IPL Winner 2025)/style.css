@@ -1,0 +1,45 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://assets.bcci.tv/bcci/photos/1354/e2ca3aae-6fac-4b9d-8b33-03d5048010f3.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+h2{
+    color: white;
+    font-size: 50px;
+}
+h1{
+    color: white;
+    font-size: 100px;
+}
+button {
+    margin-top: 10px;
+    font-size: large;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
