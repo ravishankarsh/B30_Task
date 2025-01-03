@@ -109,25 +109,3 @@ allStatus.addEventListener('click',function(dets) {
 
 
 
-
-// full.style.display = 'block'
-    // full.style.backgroundImage = `url(${stor.statusPic})`
-    // username.innerHTML = stor.fullName
-    // uploadTime.innerHTML = stor.uploadTime
-    // uploadTime.style.opacity = 0.7
-    // profilePic.src = stor.profilePic
-
-    // var progress = document.querySelector('#progress')
-    // var growth = document.querySelector('#growth')
-    // var width = 0
-    // var interval = setInterval(function(){
-    //     width++
-    //     growth.style.width = `${width}%`
-    //     if(width == 100){
-    //         clearInterval(interval)
-    //     }
-    // }, 30)
-
-    // setTimeout(function(){
-    //     full.style.display = 'none'
-    // }, 3000)
